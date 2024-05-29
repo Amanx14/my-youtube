@@ -3,7 +3,7 @@ import VideoContainer from "./VideoContainer";
 
 const MainContainer = ()=> {
     return (
-        <div className="col-span-11 w-full h-[87vh] p-4">
+        <div className="col-span-11 w-full h-[87vh] p-4 overflow-y-scroll">
             <Buttonlist />
             <VideoContainer />
         </div>
